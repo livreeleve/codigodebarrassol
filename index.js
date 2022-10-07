@@ -1,1 +1,5 @@
-JsBarcode("#barcode", "1234567890128", {format: "ean13"});
+try {
+    JsBarcode("#barcode", window.location.search.split("=")[1], {format: "ean13"});
+} catch (error) {
+    alert('Codigo errado!')
+}
