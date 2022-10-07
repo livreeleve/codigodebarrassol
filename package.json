@@ -1,0 +1,10 @@
+{
+  "name": "codigoDeBarrasSol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.10.1",
+    "jsbarcode": "^3.11.5"
+  }
+}
